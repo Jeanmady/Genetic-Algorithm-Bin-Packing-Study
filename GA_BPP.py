@@ -253,7 +253,7 @@ def plot_convergence_curves(convergence_data_dict, problem_prefix, title, filena
         '_pm0.05_t7': ('c-.', 'pm=0.05, t=7')  # Cyan dash-dot
     }
 
-    # Standardize the X-axis for plotting as it is always the same
+    # Standardise the X-axis for plotting as it is always the same
     fixed_evaluations = np.linspace(P_SIZE, 10000, int(10000/P_SIZE), dtype=int)
 
     # Plot the curves
